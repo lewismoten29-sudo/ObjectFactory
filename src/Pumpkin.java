@@ -13,15 +13,34 @@ public class Pumpkin {
     //special method: constructor
     //name has to match the class name
     //do not use void
-    public Pumpkin(){
-        color = "Orange";
-        size = 10;
-        isJackolantern = false;
+    public Pumpkin(int pSize, boolean pIsJackolantern, String pColor){
+        color = pColor;
+        size = pSize;
+        isJackolantern = pIsJackolantern;
 
 
 
     }//end of Pumpkin Constructor
 
+
+
+
+
+
+
+
+
+
+
+
+//todo: make a method called printInfo()
+    public void printInfo(){
+        //todo: use sout to print the information of the pumpkin
+        System.out.println("The color of the pumpkin is " + color);
+        System.out.println("The size of the pumpkin is " + size);
+        System.out.println("The pumpkin is a Jack-o-Lantern " + isJackolantern); //readeable
+
+    }//end of printInfo
 
 
 }// end of file
