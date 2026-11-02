@@ -17,7 +17,7 @@ public Apple(){
         amount = aAmount;
         isRed = aIsRed;
         appleName = aAppleName;
-        size = aSize;
+        //size = aSize;
     }
 //todo: make printInfo method
 public void printInfo(){
